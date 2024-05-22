@@ -1,0 +1,48 @@
+{
+  "xr_config": {
+    "AppKey": "f11ab0745b0c4110a3e4e1b2edffa098",
+    "AppSecret": "cdabcc3640a8417dbd52",
+    "TenantId": "01f5b824-096b-4ccf-82bc-38c87126520f",
+    "PoiURL": "https://mr-stage.sensetime.com/api/poi-discovery",
+    "LocateURL": "https://mr-stage.sensetime.com/api/app/positioning/scheduler/v1/regions",
+    "EnableSignature": true,
+    "ARCoreSupport": true,
+    "HuaweiEngineSupport": true,
+    "ARkitSupport": true,
+    "SenseARSupport": true,
+    "SenseARProSupport": true,
+    "LVOSupport": false,
+    "ThreeDOFSupport": true,
+    "AlgoVersion": "v4",
+    "LocateWithBlock": false
+  },
+  "bluetoothUuid": [
+    "fda50693-a4e2-4fb1-afcf-c6eb07647825"
+  ],
+  "user_info": {
+    "id": "",
+    "nick_name": "",
+    "avatar_url": ""
+  },
+  "showDebug": true,
+  "navigation": true,
+  "search": true,
+  "bigBanner": true,
+  "emptyTips": false,
+  "navPointGap": 4.5,
+  "yawDistance": 2.5,
+  "yawAngle": 45,
+  "yawTimeSeconds": 1.5,
+  "takePhoto": true,
+  "loadingTip": "",
+  "storyLineARContentRange": 100,
+  "permission_request_detail": {
+    "Camera": "App需要您的同意，才能访问相机，用于提供视觉定位、导航服务",
+    "Write": "App需要您的同意，才能保存照片",
+    "Microphone": "录屏需要麦克风权限",
+    "GPS": "App需要您的位置，用于提供定位、导航服务",
+    "Bluetooth": "App需要您的蓝牙，用于提供定位、导航服务",
+    "BluetoothService": "App需要您的蓝牙，用于提供定位、导航服务"
+  },
+  "backIcon": "Back"
+}

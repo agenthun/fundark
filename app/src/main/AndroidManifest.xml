@@ -4,8 +4,10 @@
     package="com.silencefly96.fundark">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-sdk tools:overrideLibrary="com.unity3d.player,com.example.bluetooth"/>
 
     <application
+        android:name="com.example.xrenginesdkdemo.MyApp"
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup_descriptor"
         android:icon="@mipmap/ic_launcher"
@@ -15,14 +17,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fundark"
         tools:ignore="UnusedAttribute">
-        <activity android:name=".MainActivity"
+        <activity android:name="com.example.xrenginesdkdemo.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.xrenginesdkdemo.UnityActivity"
+            android:process=":Unity"/>
     </application>
 
 </manifest>

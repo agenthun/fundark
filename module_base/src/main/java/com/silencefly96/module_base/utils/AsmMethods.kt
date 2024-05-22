@@ -142,7 +142,7 @@ object AsmMethods {
         var result = 0
         if (BuildConfig.DEBUG) {
             // 要防止这里被替代，引发StackOverflow问题
-            result = Log.d(tag, msg!!)
+//            result = Log.d(tag, msg!!)
         }
         return result
     }
@@ -153,7 +153,7 @@ object AsmMethods {
         var result = 0
         if (BuildConfig.DEBUG) {
             // 要防止这里被替代，引发StackOverflow问题
-            result = Log.e(tag, msg!!)
+//            result = Log.e(tag, msg!!)
         }
         return result
     }
